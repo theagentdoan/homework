@@ -1,9 +1,9 @@
-// import React from 'react';
+import React from 'react';
 import ReactDOM from "react-dom";
 // import Car from "./Car";
 // import Garage from "./Garage";
 // import { HelloWorld, Welcome } from "./HelloWorld";
-// import App from './App';
+// // import App from './App';
 import Product from "./Product";
 //import Football from "./Football";
 // import Toggle from "./Toggle";
@@ -20,8 +20,6 @@ ReactDOM.render(
 <Product id={19}/>
 <Product id={18}/>
 <Product id={17}/>
-
-
 </div>
     , document.getElementById("app"));
 
@@ -35,7 +33,7 @@ ReactDOM.render(
 // );
 
 //  <Toggle init={true}/>
-// {/* <Toggle init={false}/>  */}
+/* <Toggle init={false}/>  */
 
 
 
