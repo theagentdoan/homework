@@ -1,0 +1,75 @@
+#packbag {
+    border: solid 3px #ff0066;
+    display: flex;
+    /* grid-template-areas:
+        'title title title'
+        'img img img'
+        'price price price'
+        'buyBtn buyBtn buyBtn'
+        'likeBtn likeBtn likeBtn'
+        'inputNumber inputNumber inputNumber'; */
+    height: 260px;
+    width: 250px;
+    background-color: transparent;
+    border-radius: 5%;
+    box-sizing: border-box;
+    padding-bottom: 20px;
+    margin-left: 2.5vw;
+    margin-top: 30px;
+    float: left;
+    text-align: center;
+    /* margin: auto; */
+    flex-direction: column;
+    align-items: stretch;
+    justify-content: flex-end;
+    padding-top: 10px;
+}
+
+#img {
+    grid-area: img;
+    width: 50px;
+    height: 60px;
+    position: relative;
+    left: 96px;
+}
+
+#title {
+    grid-area: title;
+    color: rgb(10, 154, 63);
+    font-size: 14px;
+}
+#price{
+    grid-area: price;
+    font-size: 16px;
+    color:rgb(10, 154, 63);
+    
+}
+#likeBtn {
+    grid-area: likeBtn;
+    font-size: 20px;
+}
+
+#buyBtn {
+    grid-area: buyBtn;
+    background-color: aquamarine;
+    color: red;
+    width: 50px;
+    height: 30px;
+    position: relative;
+    left: 100px;
+}
+
+.display {
+    width: 100%;
+    height: 100vh;
+}
+#inputNumber{
+    grid-area: inputNumber;
+    width: 100px;
+    position: relative;
+    left: 76px;
+}
+#number{
+    width: 30px;
+    text-align: center;
+}
