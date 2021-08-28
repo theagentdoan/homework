@@ -9,7 +9,7 @@ class Product extends React.Component {
       image: 222,
       price: 333,
       liked: false,
-      value: 0,
+      value: 1,
     };
   }
 
@@ -39,7 +39,12 @@ class Product extends React.Component {
       liked: !this.state.liked,
     });
   };
+
 changeValue = (v) => {
+  if (this.state.value === 0){
+  (v > 0) &&
+  this.setState({value: this.state.value + v})}
+  else
   this.setState({value: this.state.value + v})
 }
 
